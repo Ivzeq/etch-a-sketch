@@ -2,8 +2,13 @@ body{
     min-height: 100vh;
     min-width: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
+    gap: 5vh;
     margin: 0;
+}
+
+.hovered{
+    background-color: red;
 }
